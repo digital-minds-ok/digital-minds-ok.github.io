@@ -20,8 +20,8 @@ a{
 }
 a:hover{
     color: #000000 !important;
+    text-shadow: 3px 3px #ffffff60;
     font-size: 25px;
-    text-shadow: 3px 3px #ffffff;
     transition: all 0.3s;
 }
 header li{
@@ -29,7 +29,7 @@ header li{
     color: white;
 }
 header img{
-    width: 70px;
+    width: 60px;
 }
 header h3{
     font-size: 20px;
@@ -56,15 +56,15 @@ header i{
     z-index: -1;
 }
 .plano-0{
-    height: 100vh;
+    height: 90vh;
 }
 .plano-4{
-    height: 100vh;
+    height: 90vh;
 }
 .plano-1-2{
     width: 100%;
     /* top:25%; */
-    bottom: -20%;
+    bottom: -5%;
     
 }
 .plano-0{
@@ -74,8 +74,7 @@ header i{
     right: 0;
     width: 80%;
     /* top:68%; */
-    bottom: -20%;
-    z-index: 1;
+    bottom: 2%;
 }
 .cajita{
     background-color: rgba(0, 0, 0, 0.118);
@@ -84,7 +83,8 @@ header i{
     font-family: "Texturina", serif;
 }
 .alto{ 
-    height: 100vh;
+    height: 90vh;
+
 }
 .nose{
     height: 150px !important;
@@ -108,7 +108,7 @@ min-height: 80%;
     /* background-color: rgba(0, 0, 0, 0.308); */
 }
 .verde-oscuro{
-    background-color:#000000 ;
+    background-color:#212121 ;
 }
 .verde{
     background-color:#7ED957 ;
