@@ -24,6 +24,12 @@ a:hover{
     font-size: 25px;
     transition: all 0.3s;
 }
+.text-2 a:hover{
+    color: #000000 !important;
+    text-shadow: 3px 3px #ffffff60;
+    font-size: 10px !important;
+    transition: all 0.3s;
+}
 header li{
     font-size: 22px;
     color: white;
