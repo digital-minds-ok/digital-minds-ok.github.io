@@ -12,6 +12,7 @@ header{
     /* background-color: #b3f1b0; */
     background-color: #7ED957;
     font-family: 'Passero One';
+    min-height: 10vh;
 }
 /* a{
     color: white !important;
@@ -36,7 +37,7 @@ header li{
     color: white;
 }
 header img{
-    width: 70px;
+    width: 60px;
 }
 header h3{
     font-size: 20px;
@@ -50,11 +51,19 @@ header i{
     font-size: 30px;
 }
 /* --------------Foes and Bones------------------- */
-
+.fondo-sobren{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/sobreNosotros/stickers.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+.foto{
+    height: 400px;
+}
 .molde{
     object-fit: cover;
     width: 100%;
-    height: 400px;
+    height: 100%;
 }
 .blancoF{
     background-color: white !important;
@@ -72,10 +81,10 @@ header i{
     background-color: #ff4dbe;
 }
 .alto{
-    height: 40vh;
+    height: 50vh;
 }
 .alto2{
-    height: 50vh;
+    min-height: 40vh;
 }
 .text-2{
     font-family: "Texturina", serif;
@@ -135,4 +144,59 @@ header i{
 }
 .negro{
     background-color: black;
+}
+/* ------------nuestro equipoo---------- */
+.card{
+    height: 355px;
+}
+.card-nosotros{
+    height: 250px;
+    width: 90%;
+}
+.texto{
+    display: none;
+    
+}
+.card:hover .texto{
+    display: block;
+    transition: all 5s;
+}
+.martin{
+    background-image: url(img/sobreNosotros/martin2.jpg);
+    background-size: cover;
+}
+.martin:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.379), rgba(0, 0, 0, 0.379)), url(img/sobreNosotros/martin.jpg);
+}
+.muriel{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.293), rgba(0, 0, 0, 0.293)), url(img/sobreNosotros/muriel1.jpg);
+    background-size: cover;
+}
+.muriel:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.501), rgba(0, 0, 0, 0.501)), url(img/sobreNosotros/muriel2.jpg);
+}
+.gino{
+    background-image: url(img/sobreNosotros/gino.jpg);
+    background-size: cover;
+}
+.gino:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.501), rgba(0, 0, 0, 0.501)), url(img/sobreNosotros/gino2.jpg);
+}
+.agus{
+    background-image: url(img/sobreNosotros/agustin.jpg);
+    background-size: cover;
+} 
+.agus:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.195), rgba(0, 0, 0, 0.195)), url(img/sobreNosotros/agus2.jpg);
+}
+.unPocoSobreNosotros{
+    min-height: 77%;
+}
+.unPocoSobreNosotros .card{
+    box-shadow: 15px 15px  black ;
+}
+.unPocoSobreNosotros .card:hover{
+    
+    box-shadow: 10px 10px #ff4dbe;
+    transition: all 0.5s;
 }
