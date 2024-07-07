@@ -1,98 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Passero+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,500;1,12..72,500&display=swap');
 body{
-    /* background-color: rgba(200, 255, 180, 1) !important; */
     background-color:#ff4dbe !important;
     margin: 0 !important;
     padding: 0 !important;
     font-family: 'Passero One' !important;
 }
-/* --------------header------------------- */
-header{
-    /* background-color: #b3f1b0; */
-    background-color: #7ED957;
-    font-family: 'Passero One';
-    min-height: 10vh;
-}
-/* a{
-    color: white !important;
-}
-a:hover{
-    color: #000000 !important;
-    font-size: 25px;
-    text-shadow: 3px 3px #ffffff;
-    transition: all 0.3s;
-} */
-a{
-    color: white !important;
-}
-a:hover{
-    color: #000000 !important;
-    text-shadow: 3px 3px #ffffff60;
-    font-size: 25px;
-    transition: all 0.3s;
-}
-header li{
-    font-size: 22px;
-    color: white;
-}
-header img{
-    width: 60px;
-}
-header h3{
-    font-size: 20px;
-}
-header i{
-    color: white !important;
-    font-size: 20px;
-}
-
-.header-btn{
-    font-size: 30px;
-}
-/* --------------Foes and Bones------------------- */
-.fondo-sobren{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/sobreNosotros/stickers.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: repeat;
-}
-.foto{
-    height: 400px;
-}
-.molde{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-}
-.blancoF{
-    background-color: white !important;
-}
-.puntos{
-    background-image: url(img/patron.webp);
-    background-size: 400px;
-    background-repeat:repeat;
-}
-.rosaF{
-    background-color: #ff4dbe;
-}
-.rosa{
-    border-radius: 5px !important;
-    background-color: #ff4dbe;
-}
-.alto{
-    height: 50vh;
-}
-.alto2{
-    min-height: 40vh;
-}
+/* --------------general------------------- */
 .text-2{
     font-family: "Texturina", serif;
 }
 .titulo{
     font-size: 5em;
 }
-.sombra, .sombraR{
+.sombra{
     box-shadow: 10px 10px hsl(0, 0%, 0%);
     transition: all 0.3s;
 }
@@ -106,46 +27,75 @@ header i{
 .verde{
     background-color: #7ED957;
 }
-.sombraR:hover, .sombraV:hover{
+.sombraV:hover{
     box-shadow: 8px 8px #ff4dbe;
-}
-.rosa:hover{
-    color: white;
-    background-color: #49de39;
-    box-shadow: 4px 4px #ff4dbe;
-}
-.letra{
-    font-size: 4em;
 }
 .blanco{
     color: white;
-    
 }
-.sombraVerde{
-    text-shadow: 4px 4px hsl(104, 96%, 65%);
+/* --------------header------------------- */
+header{
+    background-color: #7ED957;
+    font-family: 'Passero One';
+    min-height: 10vh;
 }
-
-.pe-auto{
-    cursor: pointer;
-
+a{
+    color: white !important;
 }
-.altaFoto{
-    /* object-fit: cover; */
-    height: 50vw;
+header a:hover{
+    color: #000000 !important;
+    text-shadow: 3px 3px #ffffff60;
+    font-size: 25px;
+    transition: all 0.3s;
 }
-@media (min-width: 768px) {
-.altura{
-    height: 150px;
+header li{
+    font-size: 22px;
 }
-.altaFoto{
-    /* object-fit: cover; */
-    height: 30vw;
+header img{
+    width: 60px;
 }
+header h3{
+    font-size: 20px;
+}
+header i{
+    font-size: 20px;
+}
+.header-btn{
+    font-size: 30px;
+}
+/* --------------quienes somos------------------- */
+.fondo-sobren{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/sobreNosotros/stickers.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+.alto{
+    height: 50vh;
+}
+.alto2{
+    min-height: 40vh;
+}
+/* --------------valores e inovación------------------- */
+.foto{
+    height: 400px;
+}
+.molde{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.blancoF{
+    background-color: white !important;
+}
+.rosaF{
+    background-color: #ff4dbe;
 }
 .negro{
     background-color: black;
 }
-/* ------------nuestro equipoo---------- */
+
+
 .card{
     height: 355px;
 }
@@ -153,41 +103,35 @@ header i{
     height: 250px;
     width: 90%;
 }
-.texto{
+.texto, .texto1{
     display: none;
     
 }
 .card:hover .texto{
+    display: flex;
+}
+.card:hover .texto1{
     display: block;
-    transition: all 5s;
 }
 .martin{
     background-image: url(img/sobreNosotros/martin2.jpg);
     background-size: cover;
 }
-.martin:hover{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.379), rgba(0, 0, 0, 0.379)), url(img/sobreNosotros/martin.jpg);
+.oscuro:hover{
+    background-color: rgba(0, 0, 0, 0.408);
+    transition: all 0.5s;
 }
 .muriel{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.293), rgba(0, 0, 0, 0.293)), url(img/sobreNosotros/muriel1.jpg);
+    background-image:url(img/sobreNosotros/muriel1.jpg);
     background-size: cover;
-}
-.muriel:hover{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.501), rgba(0, 0, 0, 0.501)), url(img/sobreNosotros/muriel2.jpg);
 }
 .gino{
     background-image: url(img/sobreNosotros/gino.jpg);
     background-size: cover;
 }
-.gino:hover{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.501), rgba(0, 0, 0, 0.501)), url(img/sobreNosotros/gino2.jpg);
-}
 .agus{
     background-image: url(img/sobreNosotros/agustin.jpg);
     background-size: cover;
-} 
-.agus:hover{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.195), rgba(0, 0, 0, 0.195)), url(img/sobreNosotros/agus2.jpg);
 }
 .unPocoSobreNosotros{
     min-height: 77%;
@@ -196,7 +140,13 @@ header i{
     box-shadow: 15px 15px  black ;
 }
 .unPocoSobreNosotros .card:hover{
-    
     box-shadow: 10px 10px #ff4dbe;
     transition: all 0.5s;
+}
+/* ------------footer---------- */
+footer a:hover{
+    color: #000000 !important;
+    text-shadow: 3px 3px #ffffff60;
+    font-size: 20px;
+    transition: all 0.3s;
 }

@@ -9,23 +9,14 @@ body{
 }
 /* --------------header------------------- */
 header{
-    /* background-color: #b3f1b0; */
     background-color: #7ED957;
     font-family: 'Passero One';
+    min-height: 10vh;
 }
-/* a{
-    color: white !important;
-}
-a:hover{
-    color: #000000 !important;
-    font-size: 25px;
-    text-shadow: 3px 3px #ffffff;
-    transition: all 0.3s;
-} */
 a{
     color: white !important;
 }
-a:hover{
+header a:hover{
     color: #000000 !important;
     text-shadow: 3px 3px #ffffff60;
     font-size: 25px;
@@ -33,19 +24,16 @@ a:hover{
 }
 header li{
     font-size: 22px;
-    color: white;
 }
 header img{
-    width: 70px;
+    width: 60px;
 }
 header h3{
     font-size: 20px;
 }
 header i{
-    color: white !important;
     font-size: 20px;
 }
-
 .header-btn{
     font-size: 30px;
 }
@@ -72,7 +60,7 @@ header i{
     background-color: #ff4dbe;
 }
 .alto{
-    height: 40vh;
+    height: 50vh;
 }
 .text-2{
     font-family: "Texturina", serif;
@@ -132,4 +120,11 @@ header i{
 }
 .negro{
     background-color: black;
+}
+/* ------------------footer----------------- */
+footer a:hover{
+    color: #000000 !important;
+    text-shadow: 3px 3px #ffffff60;
+    font-size: 20px;
+    transition: all 0.3s;
 }
