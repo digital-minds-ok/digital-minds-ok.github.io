@@ -2,57 +2,165 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="assets/css/mercancia.css">
-    <script src="assets/js/headerB.js"></script>
-    <script src="assets/js/footerB.js"></script>
-    <title>Mercancias Digital Minds</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="mercancia2.css">
+  <!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Bootstrap JavaScript -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </head>
-<body>
-    <header>
-      <div id="header-container">
-        <script>
-          loadHeader(); 
-        </script>
-      </div>
-    </header>
+<body class="blancoF">
+  <header class="ps-4 pe-4 pb-1 d-flex flex-wrap align-items-center  justify-content-center justify-content-lg-between pt-2 border-bottom">
+    <div class="d-flex justify-content-between header-celu col-12 col-md-2 align-items-center">
+    <div id="header-container" class="col-ld-0 mb-2 mb-md-0">
+      <a href="/" class="d-block link-body-emphasis text-decoration-none pb-2  ps-2">
+        <img src="img/logito.png" alt="">
+        <!-- <h3>Digital Minds</h3> -->
+      </a>
+    </div>
+    <i class="header-btn d-flex d-md-none bi bi-list"></i>
+    
+  </div>
   
-    <main>
-      <section class="productos">
-        <div class="publicaciones-grilla">
-          <div class="producto1">
-            <div class="tarjeta-producto">
-              
+    <ul class="d-none d-md-flex nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+      <li><a href="index.html" class="nav-link px-3 ">Inicio</a></li>
+       <li><a href="sobreNosotros.html" class="nav-link px-3 ">Sobre nosotros</a></li>
+      <li><a href="FoesAndBones.html" class="nav-link px-3">Foes and Bones</a></li>
+      <li><a href="preguntasFrecuenteas.html" class="nav-link px-3">Preguntas frecuentes</a></li>
+      <li><a href="#" class="nav-link px-3">Mercancia</a></li>
+    </ul>
+
+    <div class="links d-none d-md-flex col-12 col-md-1 text-end ps-2">
+      
+      <a href="https://instagram.com/digital_minds.ok"><i class="bi bi-instagram me-2"></i></a>
+      <a href="https://twitter.com/DigitalmindsOk"><i class="bi bi-twitter-x"></i></a>
+      <a href=""><i class="bi bi-discord ms-2"></i></a>
+      
+    </div> 
+  </header>
+      
+
+
+      <!-- -----------Sobre nosotros---------- -->
+
+    <!-- <div class="container alto text-center blancoF ps-4 pe-4 d-flex align-items-center justify-content-center pb-4 ">
+        <div class="titulo col-10 col-md-6 p-0">
+          <p>Pagina en progreso....</p>
+        </div>
+    </div> -->
+    <div class="fondo-sobren">
+      <div class="container alto text-center  ps-4 pe-4 d-flex align-items-center justify-content-center pb-4 ">
+          <div class=" col-10 col-md-9 p-0 blanco">
+            <p class="titulo">Mercancia</p>
+            <!-- <p class="text-2 texto-chico">Encuentra  toda mercancia oficial de los juegos de Dijital Minds</p> -->
+          </div>
+      </div>
+    </div>
+    <div class="album py-5">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="imagenCard" src="img/Mercancia/sticker1.jpg" alt="">
+              <div class="card-body">
+                <h1>Set de stikers</h1>
+                <p class="card-text text-2">Un paquete con 6 stikers variados de personasjes de los videojuegos de Digital Minds</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <h2 class="text-2">$700</h2>
+                    <!-- <button type="button" class="btn btn-sm btn-outline-secondary">View</button> -->
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="producto2">
-            <p>HOLA PRIMO2</p>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="imagenCard" src="img/Mercancia/sticker2.jpg" alt="">
+              <div class="card-body">
+                <h1>Sticker</h1>
+                <p class="card-text text-2">Sticker a eleccion por unidad de 6x7 centimetros</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <h2 class="text-2">$200</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="producto3">
-            <p>HOLA PRIMO3</p>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="imagenCard" src="img/Mercancia/taza3.jpg" alt="">
+              <div class="card-body">
+                <h1>Taza polimero</h1>
+                <p class="card-text text-2">Taza de polimero de 5cm de altura con diseño de Digital Minds</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <h2 class="text-2">$2400</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="producto4">
-            <p>HOLA PRIMO4</p>
+  
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="imagenCard" src="img/Mercancia/peluche3.jpg" alt="">
+              <div class="card-body">
+                <h1>Peluche Felix</h1>
+                <p class="card-text text-2">Peluche de 14x7cm de Felix el personaje principal del videojuego Foes and Bones</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <h2 class="text-2">$2500</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="producto5">
-            <p>HOLA PRIMO5</p>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img class="imagenCard" src="img/Mercancia/peluche1.jpg" alt="">
+              <div class="card-body">
+                <h1>Peluche Felix gigante</h1>
+                <p class="card-text text-2">Peluche de 24x17cm de Felix el personaje principal del videojuego Foes and Bones</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <h2 class="text-2">$3500</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="producto6">
-            <p>HOLA PRIMO6</p>
-          </div>
+          
         </div>
-      </section>
-    </main>
-
-    <footer>
-      <div id="Footer-container">
-        <script>
-          loadFooter(); 
-        </script>
+        <!-- <div class="text-2 mt-3 bg-white p-2 rounded">
+          <h3>Cualquier consulta o compra pueden hacerla atraves nuestro instagram <a class="negro" href="https://www.instagram.com/digital_minds.ok" target="_blank">@digital_minds.ok</a></h3>
+        </div> -->
+        <div class="mt-3 p-2"></div>
+          <h3 class="text-center text-2 blanco">Cualquier consulta o compra pueden hacerla atraves nuestro instagram <a class="negro" href="https://www.instagram.com/digital_minds.ok" target="_blank">@digital_minds.ok</a></h3>
+        </div>
       </div>
+    </div>
+    <footer class=" footer py-3 ">
+      <ul class="nav justify-content-around pb-3 mb-3 blanco">
+        <li class="nav-item"><a href="mercancia.html" class="nav-link px-2 blanco text-2">Mercancia</a></li>
+        <li class="nav-item"><a href="FoesAndBones.html" class="nav-link px-2 blanco text-2">Foes and Bones</a></li>
+        <li class="nav-item"><a href="index.html" class="nav-link px-2 blanco"><h2>Digital Minds</h2></a></li>
+        <li class="nav-item"><a href="preguntasFrecuenteas.html" class="nav-link px-2 blanco text-2">Preguntas</a></li>
+        <li class="nav-item"><a href="sobreNosotros.html" class="nav-link px-2 blanco text-2">Sobre nosotros</a></li>
+      </ul>
+      <hr>
+        <div class="text-center blanco">
+          <a href="https://instagram.com/digital_minds.ok"><i class="bi bi-instagram me-2"></i></a>
+          <a href="https://twitter.com/DigitalmindsOk"><i class="bi bi-twitter-x"></i></a>
+          <a href=""><i class="bi bi-discord ms-2"></i></a>
+        </div>
+      <p class="text-center blanco  text-2">&copy; 2024 Digital Minds Company, Inc</p>
     </footer>
-
 </body>
-</html>

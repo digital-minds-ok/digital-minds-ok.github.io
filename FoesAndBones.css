@@ -111,8 +111,12 @@ header i{
 
 }
 .altaFoto{
-    /* object-fit: cover; */
+    object-position: center 20%;
+    object-fit: cover;
     height: 50vw;
+}
+.ft{
+    object-fit: cover;
 }
 @media (min-width: 768px) {
 .altura{
