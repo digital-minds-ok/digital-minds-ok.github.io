@@ -11,6 +11,7 @@ body{
 }
 /* --------header---------- */
 header{
+    z-index: 2;
     /* background-color: #b3f1b0; */
     background-color: #7ED957;
     font-family: 'Passero One';
@@ -71,7 +72,7 @@ header i{
 .plano-1-2{
     width: 100%;
     /* top:25%; */
-    bottom: -5%;
+    /* bottom: -5%; */
     
 }
 .plano-0{
@@ -81,7 +82,7 @@ header i{
     right: 0;
     width: 80%;
     /* top:68%; */
-    bottom: 2%;
+    /* bottom: 2%; */
 }
 .cajita{
     background-color: rgba(0, 0, 0, 0.118);
